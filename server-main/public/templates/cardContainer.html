@@ -1,0 +1,21 @@
+<div class="row" *ngFor="let card of cards">
+    <md-card class="example-card">
+        <md-card-header>
+            <md-card-title><span [innerHtml]="card.name"></span> <span *ngIf="card.credits">({{ card.credits }})</span></md-card-title>
+            <md-card-subtitle [innerHtml]="card.title"></md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+            <br>
+
+            <div class="content">
+                <div class="row">
+                    <p style="padding-left: 0.7em" [innerHTML]="card.description">
+                    </p>
+                </div>
+            </div>
+        </md-card-content>
+        <md-card-actions>
+            <button md-button (click)="_closeCard(card)">CLOSE</button>
+        </md-card-actions>
+    </md-card>
+</div>

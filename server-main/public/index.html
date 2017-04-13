@@ -1,0 +1,39 @@
+<!--http://localhost:3000-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GRAD</title>
+    <meta name="description" content="Graduation Requirements and Advising Database">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" type="text/css" href="materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+</head>
+
+<body class="grey lighten-3">
+    <app-root>
+        <div class="spinner ui-loading">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1" width="128px" height="128px"
+                viewBox="0 0 28 28">
+                <!-- 28= RADIUS*2 + STROKEWIDTH -->
+
+                <!-- 3= STROKEWIDTH -->
+                <!-- 14= RADIUS + STROKEWIDTH/2 -->
+                <!-- 12.5= RADIUS -->
+                <!-- 1.5=  STROKEWIDTH/2 -->
+                <!-- ARCSIZE would affect the 1.5,14 part of this... 1.5,14 is specific to 270 degress -->
+                <g class="qp-circular-loader">
+                    <path class="qp-circular-loader-path" fill="none" d="M 14,1.5 A 12.5,12.5 0 1 1 1.5,14" stroke-linecap="round" />
+                </g>
+            </svg>
+        </div>
+    </app-root>
+
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="materialize-css/dist/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
