@@ -18,6 +18,11 @@
 * **Multinode** - A graph node which represents a requriement or elective.  Allows a user to select the option they wish to use to fullfill it.
 * **Requirement** - The requirement to take a class.  Can have different classes which can fulfill.
 
+
+## Link to live site
+* http://acsweb-new.ucsd.edu/cse110/grad/
+
+
 ## Angular2 and MVC
 Angular2 is a framework which has its roots in MVC.  Unfortunately its view and controller go by different names.  The updated names are:
 * **View** - Template
