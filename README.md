@@ -20,7 +20,7 @@
 
 
 ## Link to live site
-* http://acsweb-new.ucsd.edu/cse110/grad/
+* http://acsweb.ucsd.edu/cse110/grad/
 
 
 ## Angular2 and MVC
